@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #212727;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 0 10px
+}
+.nav-logo{
+    height: 100px;
+    width: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid transparent; /* Initial transparent border */
+    transition: border 0.3s ease;
+    
+
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;;
+    width: 100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}

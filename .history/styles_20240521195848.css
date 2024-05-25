@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #212727;
+    color: white;
+}
+.nav-logo{
+    height: 100px;
+    width: 30px;
+    
+
+}
+.logo{
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    height: 70px;;
+    width: 400%;
+}
